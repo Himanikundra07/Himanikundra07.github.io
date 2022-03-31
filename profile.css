@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    background-image: url("PicsArt_02-21-10.57.34.jpg");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.btn {
+    border-radius: 7px;
+    background-color: deeppink;
+    color: aliceblue;
+    font-size: 22px;
+    margin-left: 235px;
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+}
+
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@-webkit-keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+h1 {
+    font: bold 300% Consolas, Monaco, monospace;
+    border-right: 5px solid deeppink;
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 2s steps(21, end), blink-caret .5s step-end infinite alternate;
+}
+
+a.nav-link:hover {
+    border-bottom: 4px solid black;
+    color: palevioletred;
+}
+
+.navbar {
+   position: sticky;
+    top: 0;
+
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    background-color: palevioletred;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+#myBtn:hover {
+    background-color: plum;
+    color: black;
+}
+
+
+.col-5.bars.html {
+    margin-bottom: 5px;
+}
+
+.col-5.bars.css {
+    margin-bottom: 5px;
+}
+
+
+.col-5.bars.photoshop {
+    margin-bottom: 5px;
+}
+
+.col-5.bars.bootsrap {
+    margin-bottom: 5px;
+}
+
+.col-5.bars.javascript {
+    margin-bottom: 5px;
+}
+#image1:hover {
+transition: 0.8s;
+filter: brightness(0.4);
+}
+
+input {
+    width: 100%;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 22px;
+}
+
+textarea {
+    resize: vertical;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    height: 200px;
+}
+
+form {
+    margin-left: 50px;
+}
+
+.detail {
+    text-align: left;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.address2 {
+    width: 256px;
+}
+
+.btn-outline {
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: palevioletred;
+    font-weight: bold;
+    font-size: 16px;
+}
